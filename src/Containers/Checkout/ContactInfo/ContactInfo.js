@@ -287,7 +287,7 @@ const ContactInfo = props => {
             {form}
             <Button buttonType='Danger' clicked={goBackHandler} >Go Back</Button>
             <Modal show={showModalForInvalid} backdropClicked={formInvalidModalBackdropHandler}>
-                Please enter valid data !!!
+                Please enter valid data 
                 </Modal>
 
             <Modal show={props.showModalForSuccess} backdropClicked={orderSuccessBackdropClickedHandler} >
