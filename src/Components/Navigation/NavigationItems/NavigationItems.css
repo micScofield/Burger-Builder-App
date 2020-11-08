@@ -1,0 +1,24 @@
+.NavigationItems {
+    display: flex;
+    height: 100%;
+    /* margin: 0; */
+    padding: 0px 0px 0px 50px;
+    /* padding: 5px 50px; */
+    /* padding: 0; */
+    list-style: none;
+    align-items: center;
+    flex-flow: row;
+}
+
+
+@media (max-width : 400px) {
+    .NavigationItems {
+        flex-flow: column;
+        display: block;
+    }
+}
+
+.NavigationItemsForSidedrawer {
+    display: block;
+    flex-flow: column;
+}

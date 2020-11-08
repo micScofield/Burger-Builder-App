@@ -1,0 +1,10 @@
+.ContactInfo {
+    background-color: rgb(22, 22, 48);
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid grey;
+    box-shadow: 0px 3px #ccc;
+    box-sizing: border-box; 
+    text-align: center;
+}
